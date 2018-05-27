@@ -1,3 +1,5 @@
+Thread title: [ROM][8.1.0][DEVICE] Pixel Experience [AOSP][r26][2018/05/27]
+
 [CENTER]
 [img]https://i.imgur.com/i3OR5Mx.jpg[/img]
 [SIZE="5"][b][color=#4285F4]PixelExperience for DeviceName [codename][/color][/b][/SIZE]
