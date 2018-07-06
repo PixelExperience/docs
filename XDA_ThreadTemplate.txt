@@ -1,4 +1,4 @@
-Thread title: [ROM][8.1.0][DEVICE] Pixel Experience [AOSP][r33][2018/06/07]
+Thread title: [ROM][8.1.0][DEVICE] Pixel Experience [AOSP][r36][2018/07/06]
 
 [CENTER]
 [img]https://i.imgur.com/i3OR5Mx.jpg[/img]
@@ -50,8 +50,8 @@ Facelock[/SIZE]
 [/CENTER]
 
 [LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 8.1.0_r33
-[*][b]Security patch level:[/b] June 2018
+[*][b]Android OS version:[/b] 8.1.0_r36
+[*][b]Security patch level:[/b] July 2018
 [*][b]Build author:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
 [*][b]ROM Developer:[/b] [url=https://forum.xda-developers.com/member.php?u=6519039]jhenrique09[/url]
