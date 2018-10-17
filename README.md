@@ -1,4 +1,4 @@
-![bannar7](https://download.pixelexperience.org/img/logo_p.png)
+![PixelExperience](https://i.imgur.com/GtwTyCR.png[/img])
 
 **Important Links:**
 
