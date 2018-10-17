@@ -1,8 +1,8 @@
-![bannar7](https://download.pixelexperience.org/assets/img/banner.jpg)
+![bannar7](https://download.pixelexperience.org/img/logo_p.png)
 
 **Important Links:**
 
-- [Website](http://www.pixelexperience.org/) 
+- [Website](http://download.pixelexperience.org/) 
 - [Gerrit Code Review](http://gerrit.pixelexperience.org/) 
 - [Apply for official devices](https://github.com/PixelExperience/official_devices) 
 - [Translation platform](http://translate.pixelexperience.org/)
