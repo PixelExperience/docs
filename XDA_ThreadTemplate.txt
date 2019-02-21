@@ -1,11 +1,11 @@
-Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP][r31][2019/02/05]
+Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP/CAF][2019/02/05]
 
 [CENTER]
 [img]https://i.imgur.com/GtwTyCR.png[/img]
 [SIZE="5"][b][color=#1a73e8]PixelExperience for DeviceName [codename][/color][/b][/SIZE]
 
 [SIZE="4"][b][color=#1a73e8]What is this?[/color][/b][/SIZE]
-[SIZE="3"]Pixel Experience is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation)
+[SIZE="3"]Pixel Experience is an AOSP/CAF based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation)
 
 Our mission is to offer the maximum possible stability and security, along with essential features for the proper functioning of the device
 
@@ -45,8 +45,6 @@ Facelock[/SIZE]
 [/CENTER]
 
 [LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 9.0.0_r31
-[*][b]Security patch level:[/b] February 2019
 [*][b]Build author:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
 [*][b]ROM Developer:[/b] [url=https://forum.xda-developers.com/member.php?u=6519039]jhenrique09[/url]
