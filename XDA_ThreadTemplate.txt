@@ -7,7 +7,7 @@ Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP/CAF][2019/02/05]
 [SIZE="4"][b][color=#1a73e8]What is this?[/color][/b][/SIZE]
 [SIZE="3"]Pixel Experience is an AOSP/CAF based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation)
 
-Our mission is to offer the maximum possible stability and security, along with essential features for the proper functioning of the device
+Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device
 
 Based on Android 9.0
 [/SIZE]
