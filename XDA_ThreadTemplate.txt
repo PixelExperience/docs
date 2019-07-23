@@ -1,11 +1,11 @@
-Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP/CAF][2019/02/05]
+Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP][r44][2019/07/05]
 
 [CENTER]
 [img]https://i.imgur.com/GtwTyCR.png[/img]
 [SIZE="5"][b][color=#1a73e8]PixelExperience for DeviceName [codename][/color][/b][/SIZE]
 
 [SIZE="4"][b][color=#1a73e8]What is this?[/color][/b][/SIZE]
-[SIZE="3"]Pixel Experience is an AOSP/CAF based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation)
+[SIZE="3"]Pixel Experience is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation)
 
 Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device
 
@@ -40,12 +40,16 @@ Facelock[/SIZE]
 [SIZE="4"][b][color=#1a73e8]Translation[/color][/b][/SIZE]
 [SIZE="3"][url="https://translate.pixelexperience.org/"][b][color=#1a73e8][u]Help with project translation[/u][/color][/b][/url][/SIZE]
 
-[SIZE="4"][b][color=#1a73e8]Telegram channel[/color][/b][/SIZE]
-[SIZE="3"][url="https://t.me/PixelExperience"][b][color=#1a73e8][u]Stay tuned[/u][/color][/b][/url][/SIZE]
+[SIZE="4"][b][color=#1a73e8]Stay tuned[/color][/b][/SIZE]
+[SIZE="3"][url="https://t.me/PixelExperience"][b][color=#1a73e8][u]Our Telegram channel[/u][/color][/b][/url][/SIZE]
+[SIZE="3"][url="https://blog.pixelexperience.org"][b][color=#1a73e8][u]Our blog[/u][/color][/b][/url][/SIZE]
 [/CENTER]
 
 [LEFT][SIZE="3"][list]
-[*][b]Build author:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
+[*][b]Android OS version:[/b] 9.0.0_r44
+[*][b]Security patch level:[/b] July 2019
+[*][b]Build author/Device Maintainer:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
+[*][b]Device Source code:[/b] [url=https://github.com/PixelExperience-Devices]https://github.com/PixelExperience-Devices[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
 [*][b]ROM Developer:[/b] [url=https://forum.xda-developers.com/member.php?u=6519039]jhenrique09[/url]
 [/list][/SIZE][/LEFT]
