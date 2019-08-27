@@ -14,4 +14,4 @@ Before you apply to add your device into our list of official devices, you shoul
 
 5 - You must show the **real** used device sources.
 
-6 - Your device must be in accordance with the [Device Requirements](https://github.com/PixelExperience/docs/blob/pie/device_requirements.md)
+6 - Your device must be in accordance with the [Device Requirements](https://github.com/PixelExperience/docs/blob/master/device_requirements.md)
