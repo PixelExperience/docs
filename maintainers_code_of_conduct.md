@@ -23,7 +23,7 @@ Also, a maintainer mustn't send an update to users with unmerged gerrit changes.
 
 8 - Mustn't add:
 
-8.1 - Any features in their device specific packages, eg. configpanel, XiaomiParts, etc., like KCAL, force Camera API2, etc. Features that are device specific and are available at stock firmware, eg. Alert Slider and Offscreen gestures for some OnePlus Devices, Fingerprint Gestures and MotoActions for Motorola Devices, are allowed. Dirac Sound is the only exception, but only on Plus Edition.
+8.1 - Any features in their device specific packages, eg. configpanel, XiaomiParts, etc., like KCAL, force Camera API2, etc. Features that are device specific and are available at stock firmware, eg. Alert Slider and Offscreen gestures for some OnePlus Devices, Fingerprint Gestures and MotoActions for Motorola Devices, are allowed. Dirac Sound is not allowed to be included in Pie Edition builds, doesn't mattering whether a device ROM stock feature or not. Dirac Sound is allowed to be included in the Plus Edition builds only.
 
 8.2 - Custom build fingerprints (eg. Pixels Build fingerprints), unless the reason of having them it's bypass SafetyNet.
 
