@@ -46,8 +46,8 @@ Facelock[/SIZE]
 [/CENTER]
 
 [LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 9.0.0_r44
-[*][b]Security patch level:[/b] July 2019
+[*][b]Android OS version:[/b] 9.0.0_r46
+[*][b]Security patch level:[/b] August 2019
 [*][b]Build author/Device Maintainer:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
 [*][b]Device Source code:[/b] [url=https://github.com/PixelExperience-Devices]https://github.com/PixelExperience-Devices[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
