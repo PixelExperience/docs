@@ -1,4 +1,4 @@
-Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP][r44][2019/07/05]
+Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP][r46][2019/08/05]
 
 [CENTER]
 [img]https://i.imgur.com/GtwTyCR.png[/img]
