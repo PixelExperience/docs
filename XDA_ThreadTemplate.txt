@@ -1,4 +1,4 @@
-Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP][r46][2019/08/05]
+Thread title: [ROM][9.0][DEVICE] Pixel Experience [AOSP][r46][2019/09/06]
 
 [CENTER]
 [img]https://i.imgur.com/GtwTyCR.png[/img]
@@ -47,7 +47,7 @@ Facelock[/SIZE]
 
 [LEFT][SIZE="3"][list]
 [*][b]Android OS version:[/b] 9.0.0_r46
-[*][b]Security patch level:[/b] August 2019
+[*][b]Security patch level:[/b] September 2019
 [*][b]Build author/Device Maintainer:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
 [*][b]Device Source code:[/b] [url=https://github.com/PixelExperience-Devices]https://github.com/PixelExperience-Devices[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
