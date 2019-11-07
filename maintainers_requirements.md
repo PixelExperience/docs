@@ -15,3 +15,5 @@ Before you apply to add your device into our list of official devices, you shoul
 5 - You must show the **real** used device sources.
 
 6 - Your device must be in accordance with the [Device Requirements](https://github.com/PixelExperience/docs/blob/master/device_requirements.md)
+
+After applying and your application be apreciate, you will receive an email from a member of the recruitment committee about the acceptance or not. 

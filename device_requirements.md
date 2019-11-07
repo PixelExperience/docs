@@ -22,7 +22,7 @@
 
 - The device trees must have some required commits. You can check them at [this url](https://github.com/PixelExperience-Devices/required_commits).
 
-- The device must not include any unused overlays and packages. This includes but is not limited to packages not being built, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary features, as stated in the rule #8 at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+- The device must not include any unused overlays and packages. This includes but is not limited to packages not being built, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated in the rule #8 at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
 - If there're commits that are needed in repos other than the device specific ones, they must:
 
