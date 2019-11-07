@@ -45,8 +45,8 @@ Sound / vibration[/SIZE]
 [/CENTER]
 
 [LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 10.0.0_r4
-[*][b]Security patch level:[/b] October 2019
+[*][b]Android OS version:[/b] 10.0.0_r13
+[*][b]Security patch level:[/b] November 2019
 [*][b]Build author/Device Maintainer:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
 [*][b]Device Source code:[/b] [url=https://github.com/PixelExperience-Devices]https://github.com/PixelExperience-Devices[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
