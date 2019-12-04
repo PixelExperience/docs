@@ -27,7 +27,7 @@ Also, a maintainer mustn't send an update to users with unmerged gerrit changes.
 
 Features that are device specific and are available at stock firmware, eg. Alert Slider and Offscreen gestures for some OnePlus Devices, Fingerprint Gestures and MotoActions for Motorola Devices, are allowed. 
 
-Dirac Sound is not allowed to be included in Standard/Normal Edition builds, doesn't mattering whether a device ROM stock feature or not. Dirac Sound is allowed to be included in the Plus Edition builds only.
+Dirac Sound is allowed, but it must be a device's ROM stock feature or not. The same must be working fine, otherwise it can't be shipped.
 
 8.2 - Custom build fingerprints (eg. Pixels Build fingerprints), unless the reason of having them it's bypass SafetyNet.
 
