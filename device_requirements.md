@@ -42,6 +42,6 @@
   
 ## Exceptions yet made
 
-Device                 | Exception                                            | Until
-----------------------:|:----------------------------------------------------:|:-------------------
-Redmi Note 4/4X (Mido) | Fingerprint: Goodix fingerprint not working          | February 2020
+Device(s)                                                         | Exception                                            | Until
+-----------------------------------------------------------------:|:----------------------------------------------------:|:-------------------
+Redmi 3X/3S (land), Redmi 4X (Santoni) and Redmi Note 4/4X (Mido) | Fingerprint: Goodix fingerprint not working          | February 2020
