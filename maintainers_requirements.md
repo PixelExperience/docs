@@ -4,7 +4,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 **Any failure in following the below instructions will make you unfit for the maintainership. No questions asked.**
 
-1 - You must own the device. Blind and untested builds aren't allowed.
+1 - You must own the device. Blind and untested builds aren't allowed. Devices that have minimal hardware difference from yours are allowed to maintain, as soon as you also maintain your own device.
 
 2 - You must have a good knowledge of git.
 
