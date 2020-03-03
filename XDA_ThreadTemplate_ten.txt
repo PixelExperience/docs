@@ -29,7 +29,7 @@ Sound / vibration[/SIZE]
 
 [SIZE="4"][b][color=#1a73e8]Known issues[/color][/b][/SIZE]
 [SIZE="3"]Nothing yet[/SIZE]
-[SIZE="3"]Report any issue you encounter on the forum[/SIZE]
+[SIZE="3"]You tell me[/SIZE]
 
 [SIZE="3"][B]DON'T FLASH GAPPS, THEY'RE ALREADY INCLUDED[/B][/SIZE]
 [SIZE="3"][url="https://download.pixelexperience.org/DEVICE_CODENAME/"][b][color=#1a73e8][u]Download from Pixel Experience website[/u][/color][/b][/url][/SIZE]
