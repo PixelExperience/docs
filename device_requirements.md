@@ -10,11 +10,11 @@
 
 - The device must not include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated in the rule #6 at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
-- The device sources must be in accordance with rules #6, #7, #8 and #9, stated at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+- The device sources must be in accordance with rules #6, #7, #8, #9, and also #10, if applicable, stated at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
-- If the device has Full Disk Encyption (a.k.a FDE), one mustn't build the Google Play System Updates/Updatable APEX, as the same only works on devices that have File-Base Encryption (FBE). The same is applicable for kernel 3.18 or devices with older versions.
+- If the device has Full Disk Encyption (a.k.a FDE) mustn't ship/build the Google Play System Updates/Updatable APEX, as the same only works on devices that have File-Base Encryption (FBE) with the device encrypted. The same is applicable for kernel 3.18 or devices with older kernel versions.
 
-- The device mustn't have the need for a lot of patches, and if so it must be in accordance with the following listing below
+- The device mustn't have the need for a lot of patches, and if so it must be in accordance with the following listing below.
 
 - If there are commits that are needed in repos other than the device specific ones, they must:
 
@@ -26,10 +26,10 @@
 
   - Be as minimal and polished as possible.
 
-  - Be in accordance with rules #6, #7, #8 and #9, stated in [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+  - Be in accordance with rules #6, #7, #8, #9, and also #10, if applicable, stated in [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
   
 ## Exceptions yet made
 
-Device(s)                                                         | Exception                                            | Until
------------------------------------------------------------------:|:----------------------------------------------------:|:-------------------
-Redmi Note 4/4X (Mido) | Fingerprint: Goodix fingerprint not working          | February 2020
+Device(s) | Exception | Until
+---------:|:---------:|:-------
+Redmi Note 4/4X (Mido) | Fingerprint: Goodix fingerprint not working | February 2020
