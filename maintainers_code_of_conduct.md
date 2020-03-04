@@ -24,7 +24,7 @@ The maintainers:
 
 Features that are device specific and are available in stock firmware, eg. Alert Slider and Offscreen gestures for some OnePlus Devices, Fingerprint Gestures and MotoActions for Motorola Devices, are allowed.
 
-Dirac Sound or any audio enhancer is allowed, but it MUST be a device's ROM stock feature or else it's disallowed. The same must be working fine, otherwise it can't be shipped.
+Dirac Sound or any audio enhancer is allowed, but it MUST be a device's ROM stock feature or else it's not allowed. The same must be working fine, otherwise it can't be shipped.
 
 7.2 - Playground or anything else related to getting Pixel-like features that aren't available from the ROM sources - only GoogleCamera and ARCore are acceptable. 
 
@@ -32,8 +32,8 @@ Dirac Sound or any audio enhancer is allowed, but it MUST be a device's ROM stoc
 
 8 - MUST NOT ship builds with prebuilt kernels, unless it's the only solution to make the device functional.
 
-9 - MUST NOT do any heavy software modification that may lead to magisk working improperly. If possible recommend to users to stop using Magisk if it's not working properly.
+9 - MUST NOT do any heavy software modification that may lead to magisk working properly. If possible recommend to users to stop using Magisk if it's not working properly.
 
-10 - Maintainer of an A/B partition or a dynamic partition device MUST NOT ship TWRP prebuilt. Instead of TWRP, the maintainer MUST ship the AOSP Recovery available with us.
+10 - If maintainer of an A/B partition or a dynamic partition device MUST NOT ship TWRP prebuilt. Instead of TWRP, the maintainer MUST ship the AOSP Recovery available by us.
 
 If any of these rules are broken, the administration will take direct action agaisnt the maintainer, without prior warning.
