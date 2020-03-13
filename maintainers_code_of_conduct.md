@@ -34,6 +34,6 @@ Dirac Sound or any audio enhancer is allowed, but it MUST be a device's ROM stoc
 
 9 - MUST NOT do any heavy software modification that may lead to magisk working properly. If possible recommend to users to stop using Magisk if it's not working properly.
 
-10 - If maintainer of an A/B partition or a dynamic partition device MUST NOT ship TWRP prebuilt. Instead of TWRP, the maintainer MUST ship the AOSP Recovery available by us.
+10 - If maintainer of an A/B partition or a dynamic partition device then you MUST NOT ship TWRP prebuilt. Instead of TWRP, the maintainer MUST ship the AOSP Recovery available by us.
 
 If any of these rules are broken, the administration will take direct action agaisnt the maintainer, without prior warning.
