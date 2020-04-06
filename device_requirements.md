@@ -32,4 +32,3 @@
 
 Device(s) | Exception | Until
 ---------:|:---------:|:-------
-Redmi Note 4/4X (Mido) | Fingerprint: Goodix fingerprint not working | February 2020
