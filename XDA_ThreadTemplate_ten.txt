@@ -23,6 +23,7 @@ Camcorder
 Bluetooth
 FMRadio
 Fingerprint reader
+Face unlock
 NFC
 Lights
 Sound / vibration[/SIZE]
