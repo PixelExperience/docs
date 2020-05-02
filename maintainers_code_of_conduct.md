@@ -6,7 +6,7 @@ The maintainers:
 
 2 - MUST upload:
 
-2.1 - All theirs device sources on [PixelExperience-Devices](https://github.com/PixelExperience-Devices) organization. It goes without saying that these should be fully buildable. Using external repos for build releases aren't allowed, unless they're from LineageOS/TheMuppets and Sony Open Devices Project (SODP) organizations.
+2.1 - All theirs device sources on [PixelExperience-Devices](https://github.com/PixelExperience-Devices) organization. It goes without saying that these should be fully buildable. Using external repos for build releases aren't allowed, unless they're from LineageOS/TheMuppets and Sony Open Devices Project (SODP) organizations. Exceptions may be open if only it's a really big need.
 
 2.2 - Changelogs for each build. These MUST be user-friendly, simplifying the changes for the average user who aren't aware of things like Safetynet or color calibration, but would like to know what has changed since the last update. 
 
