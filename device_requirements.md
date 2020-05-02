@@ -6,7 +6,7 @@
 
 - The device trees must have some required commits. You can check them at [this url](https://github.com/PixelExperience-Devices/required_commits).
 
-- The device must pass SafetyNet out of the box, without any 3rd part mods. Yet custom build fingerprints (e.g. Pixels Build fingerprints) aren't allowed if any device's stock build fingerprint works to pass SafetyNet.
+- The device must pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
 
 - The device must not include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated in the rule #6 at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
