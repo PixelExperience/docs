@@ -28,7 +28,9 @@ Dirac Sound or any audio enhancer is allowed, but it MUST be a device's ROM stoc
 
 7.2 - Playground or anything else related to getting Pixel-like features that aren't available from the ROM sources - only GoogleCamera and ARCore are acceptable. 
 
-7.3 - Any Google applications that aren't available from ROM sources - again, only GoogleCamera and ARCore are acceptable, but please ensure that you use a reliable source and that the device has proper support for them.
+7.3 - Any Google applications that aren't available from ROM sources - again, only GoogleCamera is acceptable, but please ensure that you use a reliable source and that the device has proper support for them.
+
+7.4 - Any stock firmware camera app. Once again GoogleCamera still acceptable as per se.
 
 8 - MUST NOT ship builds with prebuilt kernels, unless it's the only solution to make the device functional.
 
