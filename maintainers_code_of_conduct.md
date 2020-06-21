@@ -34,7 +34,11 @@ Dirac Sound or any audio enhancer is allowed, but it MUST be a device's ROM stoc
 
 8 - MUST NOT ship builds with prebuilt kernels, unless it's the only solution to make the device functional.
 
-9 - MUST NOT do any heavy software modification that may lead to Magisk working properly. If possible, recommend to users to stop using Magisk if it's not working properly.
+9 - About Magisk, the maintainers MUST NOT:
+
+9.1 - Do any heavy software modification that may lead to Magisk working properly. If possible, recommend to users to stop using Magisk if it's not working properly.
+
+9.2 - Do any modifications that may lead to Magisk not work, as per the [Kernel Guidelines](https://github.com/PixelExperience/docs/blob/master/kernel_guidelines.md).
 
 10 - If maintainer of an A/B partition or a dynamic partition device, then you MUST NOT ship TWRP prebuilt. Instead of TWRP, the maintainer MUST ship the AOSP Recovery available by us.
 
