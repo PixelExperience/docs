@@ -2,46 +2,70 @@
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
-1. Device or software exceptions **SHOULD** be made via change request to this repository.
+Exceptions **SHOULD** be made by contacting the administration team.
 
-2. The device **MAY** have SELinux Enforcing.
-
-3. The device **MUST** have hardware compatibility comparable to stock ROMs (i.e. if IR blaster works on stock ROMs, it **MUST** work on PE) 
+- **MUST** 
+ 
+  - Upload the device's buildable sources to [PixelExperience-Devices](https://github.com/PixelExperience-Devices) organization. 
   
-4. The device's trees are **REQUIRED** to include some commits listed [here](https://github.com/PixelExperience-Devices/required_commits).
-
-5. The device **MUST** pass SafetyNet out of the box with no modifications.
-  
-    5.1. If the device's stock fingeprint passes, it **MUST** be used.
+  - Have hardware compatibility comparable to stock ROMs.
     
-    5.2. If that device's stock fingerprint does not pass SafetyNet, other devices' fingeprints (e.g. Pixels' fingerprints) **SHOULD** be used.
+  - Include some commits listed [here](https://github.com/PixelExperience-Devices/required_commits) in device's trees.
+    
+  - Ship builds with AOSP recovery available by us for devices using A/B or dynamic parition layout.
+    
+  - Pass SafetyNet out of the box with no modifications. Other devices' fingerprint **SHOULD** be used if stock device's fingeprint does not pass SafetyNet.
 
-6. The device **MUST NOT** include, but is not limited to:
+- **MUST NOT**
 
-    6.1. Packages that are not built, do not work, and/or are obsolete.
+  - Ship Google Play System Updates/Updatable APEX enabled if the device uses kernel version 3.18 or below, or uses Full Disk Encryption (a.k.a FDE).
+    
+  - Ship builds with pre-built kernels, unless it's the only solution to make the device functional.
+    
+  - Ship builds with pre-built TWRP if the device uses A/B partition or dynamic parition layout.
+
+  - Inlucde any features in their device-specific packages (i.e. configpanel, XiaomiParts, ...).
+    
+  - Include any Google applications or similar applications to getting Pixel-like features that aren't available from the ROM sources.
+    
+  - Include any stock firmware camera app.
+
+  - Include packages that are not built, do not work, and/or are obsolete.
   
-    6.2. Placebo 'tweaks' and/or packages that contain unnecessary and/or unwanted features, as stated in #6 of [Maintainers' Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+  - Include placebo 'tweaks' and/or packages that contain unnecessary and/or unwanted features.
+    
+  - Include heavy software modification that may lead to Magisk working improperly
+ 
+- **SHOULD**  <br>
 
-7. The device's sources **MUST** be in accordance with #6, #7, #8, #9, and #10 (if applicable) as stated in [Maintainers' Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+  - Have SELinux Enforcing.
 
-8. If the device uses Full Disk Encryption (a.k.a FDE) or uses kernel version 3.18 or below, it **MUSTN'T** ship with Google Play System Updates/Updatable APEX enabled, as it only works on devices that use File-Based Encryption (a.k.a FBE) with encryption enabled, and kernel version later than 3.18. 
+- **SHOULD NOT** <br>
 
-9. The device **SHOULD NOT** use a lot of patches.
+   - Contain a lot of patches. 
+    
+# Patches
 
-10. If the device **MUST** use a lot of patches, and/or there are commits needed in repos other than the device-specific's ones, they **MUST**:
-
-    10.1. Be **REQUIRED** for the device to build and/or boot successfully, or to enable a function (i.e. Fingerprint On Display).
+- Be **REQUIRED** for the device to build and/or boot successfully, or to enable a function (i.e. Fingerprint On Display).
   
-    10.2. Have proper authorship.
+- Have proper authorship.
 
-    10.3. Be pushed to [PixelExprience's Gerrit](https://gerrit.pixelexperience.org).
+- Be pushed to [PixelExprience's Gerrit](https://gerrit.pixelexperience.org).
 
-    10.4. Be as minimal and as polished as possible.
+- Be as minimal and as polished as possible.
 
-    10.5. Be in accordance with #6, #7, #8, #9, and #10 (if applicable) as stated in [Maintainers' Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
-  
-## Exceptions
-Device(s) | Exception | Until
-----------|-----------|-------
-All       | VoLTE     |-------
-All       | NFC       |-------
+- Be in accordance with all requirements above.
+
+# Exceptions
+Device(s)        | Exception(s)                          | Until | Notes
+-----------------|---------------------------------------|-------|-------------------------------------------------------------------------------------
+All              | VoLTE & NFC                           |       |
+All              | Sources Upload                        |       |Must be from LineageOS, TheMuppets or Sony Open Devices Project (SODP) organizations.
+Xiaomi Devices   | Dirac Sound & XiaomiParts             |       |
+OnePlus Devices  | Alert Sliders & Offscreen Gestures    |       |
+Motorola Devices | Fingerprint Gestures & MotoActions    |       |
+
+Software(s)      | Device(s) Exempted | Until | Notes 
+-----------------| -------------------|-------|--------
+Google Camera    | All                |       | Allowed
+ARCore           | All                |       | Allowed
