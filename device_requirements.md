@@ -4,9 +4,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Exceptions **SHOULD** be made by contacting the administration team.
 
+The device:
+
 - **MUST** 
  
-  - Upload the device's buildable sources to [PixelExperience-Devices](https://github.com/PixelExperience-Devices) organization. 
+  - Have the device's buildable sources uploaded to [PixelExperience-Devices](https://github.com/PixelExperience-Devices) organization. 
   
   - Have hardware compatibility comparable to stock ROMs.
     
