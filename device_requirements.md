@@ -1,34 +1,47 @@
 # Device Requirements
 
-- The device may have SELinux Enforcing to release builds.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
-- The device must have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on PE. Only VoLTE is allowed to be ignored, so are NFC payment methods.
+1. Device or software exceptions **SHOULD** be made via change request to this repository.
 
-- The device trees must have some required commits. You can check them at [this url](https://github.com/PixelExperience-Devices/required_commits).
+2. The device **MAY** have SELinux Enforcing.
 
-- The device must pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
-
-- The device must not include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated in the rule #6 at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
-
-- The device sources must be in accordance with rules #6, #7, #8, #9, and also #10, if applicable, stated at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
-
-- If the device has Full Disk Encryption (a.k.a FDE) mustn't ship/build the Google Play System Updates/Updatable APEX, as the same only works on devices that have File-Base Encryption (FBE) with the device encrypted. The same is applicable for kernel 3.18 or devices with older kernel versions.
-
-- The device mustn't have the need for a lot of patches, and if so, it must be in accordance with the following listing below.
-
-- If there are commits that are needed in repos other than the device-specific ones, they must:
-
-  - Be necessary for the device to build, boot, or even to have a device function working properly (e.g. Fingerprint On Display).
-
-  - Have proper authorship.
-
-  - Be pushed to [Gerrit](https://gerrit.pixelexperience.org).
-
-  - Be as minimal and polished as possible.
-
-  - Be in accordance with rules #6, #7, #8, #9, and also #10, if applicable, stated in [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+3. The device **MUST** have hardware compatibility comparable to stock ROMs (i.e. if IR blaster works on stock ROMs, it **MUST** work on PE) 
   
-## Exceptions yet made
+4. The device's trees are **REQUIRED** to include some commits listed [here](https://github.com/PixelExperience-Devices/required_commits).
 
+5. The device **MUST** pass SafetyNet out of the box with no modifications.
+  
+    5.1. If the device's stock fingeprint passes, it **MUST** be used.
+    
+    5.2. If that device's stock fingerprint does not pass SafetyNet, other devices' fingeprints (e.g. Pixels' fingerprints) **SHOULD** be used.
+
+6. The device **MUST NOT** include, but is not limited to:
+
+    6.1. Packages that are not built, do not work, and/or are obsolete.
+  
+    6.2. Placebo 'tweaks' and/or packages that contain unnecessary and/or unwanted features, as stated in #6 of [Maintainers' Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+
+7. The device's sources **MUST** be in accordance with #6, #7, #8, #9, and #10 (if applicable) as stated in [Maintainers' Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+
+8. If the device uses Full Disk Encryption (a.k.a FDE) or uses kernel version 3.18 or below, it **MUSTN'T** ship with Google Play System Updates/Updatable APEX enabled, as it only works on devices that use File-Based Encryption (a.k.a FBE) with encryption enabled, and kernel version later than 3.18. 
+
+9. The device **SHOULD NOT** use a lot of patches.
+
+10. If the device **MUST** use a lot of patches, and/or there are commits needed in repos other than the device-specific's ones, they **MUST**:
+
+    10.1. Be **REQUIRED** for the device to build and/or boot successfully, or to enable a function (i.e. Fingerprint On Display).
+  
+    10.2. Have proper authorship.
+
+    10.3. Be pushed to [PixelExprience's Gerrit](https://gerrit.pixelexperience.org).
+
+    10.4. Be as minimal and as polished as possible.
+
+    10.5. Be in accordance with #6, #7, #8, #9, and #10 (if applicable) as stated in [Maintainers' Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+  
+## Exceptions
 Device(s) | Exception | Until
----------:|:---------:|:-------
+----------|-----------|-------
+All       | VoLTE     |-------
+All       | NFC       |-------
