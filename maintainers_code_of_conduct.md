@@ -4,7 +4,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Exceptions **SHOULD** be made by contacting the administration team.
 
-The maintainers:
+Maintainers:
 
 - **MUST** uploads changelogs for each build. These **MUST** be user-friendly.
 
