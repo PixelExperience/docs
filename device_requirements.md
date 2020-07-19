@@ -10,7 +10,7 @@
 
 - The device must not include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated in the rule #6 at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
-- The device sources must be in accordance with rules #6, #7, #8, #9, and also #10, if applicable, stated at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+- The device sources must be in accordance with items #5, #7, #8, #9, and also #10, if applicable, stated at [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
 - If the device has Full Disk Encryption (a.k.a FDE) mustn't ship/build the Google Play System Updates/Updatable APEX, as the same only works on devices that have File-Base Encryption (FBE) with the device encrypted. The same is applicable for kernel 3.18 or devices with older kernel versions.
 
@@ -26,7 +26,7 @@
 
   - Be as minimal and polished as possible.
 
-  - Be in accordance with rules #6, #7, #8, #9, and also #10, if applicable, stated in [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+  - Be in accordance with items #5, #7, #8, #9, and also #10, if applicable, stated in [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
   
 ## Exceptions yet made
 
