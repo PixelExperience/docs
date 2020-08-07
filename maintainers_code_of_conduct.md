@@ -30,7 +30,7 @@ Dirac Sound or any audio enhancer is allowed, but it MUST be a device's ROM stoc
 
 7.3 - Any Google applications that aren't available from ROM sources - again, only GoogleCamera is acceptable, but please ensure that you use a reliable source and that the device has proper support for them.
 
-7.4 - Any stock firmware camera app. Once again GoogleCamera still acceptable as per se.
+7.4 - Any stock firmware app. Once again GoogleCamera still acceptable as per se, so does the camera app itself if fully functional.
 
 8 - MUST NOT ship builds with prebuilt kernels, unless it's the only solution to make the device functional.
 
