@@ -8,7 +8,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 2 - You must have a good knowledge of git.
 
-3 - You must create and maintain an unofficial build for at least 2 weeks, make sure that the build is stable for daily usage before applying. The context of stability may differ for different devices, so explain regarding any exceptions.
+3 - You must create and maintain an unofficial build for some amount of time, (Don't instantly do a build and apply. That'll mean an instantly rejection), make sure that the build is stable for daily usage before applying. The context of stability may differ for different devices, so explain regarding any exceptions.
 
 4 - You must have your device sources available publicly with proper authorship for each commit.
 
