@@ -1,4 +1,4 @@
-Thread title: [ROM][10.0][DEVICE] Pixel Experience [AOSP][2020/10/11]
+Thread title: [ROM][10.0][DEVICE] Pixel Experience [AOSP][2020/11/20]
 
 [CENTER]
 [img]https://i.imgur.com/GtwTyCR.png[/img]
@@ -48,7 +48,7 @@ Sound / vibration[/SIZE]
 
 [LEFT][SIZE="3"][list]
 [*][b]Android OS version:[/b] 10.0.0_r41
-[*][b]Security patch level:[/b] October 2020
+[*][b]Security patch level:[/b] November 2020
 [*][b]Build author/Device Maintainer:[/b] [url=https://forum.xda-developers.com/member.php?u=XDA_NUMERIC_ID]XDA_USERNAME[/url]
 [*][b]Device Source code:[/b] [url=https://github.com/PixelExperience-Devices]https://github.com/PixelExperience-Devices[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
