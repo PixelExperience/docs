@@ -12,11 +12,11 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - The device trees **MUST** have some required commits. You can check them at [this url](https://github.com/PixelExperience-Devices/required_commits).
 
-- The device **MUST** pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
+- The device **MUST** pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted from being used.
 
 - The device **MUST NOT** include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated at the [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
-- The device sources **MUST** be in accordance with, if applicable, all the items stated at our [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md) related to the device source code.
+- The device sources **MUST** be in accordance with, if applicable, all the terms stated at our [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md) related to the device source code.
 
 - If the device has Full Disk Encryption (a.k.a FDE), it **MUST NOT** ship/build the Google Play System Updates/Updatable APEX, as the same only works on devices that have File-Base Encryption (FBE) with the device encrypted. The same is applicable for kernel 3.18 or devices with older kernel versions.
 
@@ -24,7 +24,7 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - If there are commits that are needed in repos other than the device-specific ones, they **MUST**:
 
-  - Be necessary for the device to build, boot, or even to have a device function working properly (e.g. Fingerprint On Display).
+  - Be necessary for the device to build, boot, or even to have the device's function(s) working properly (e.g. Fingerprint On Display).
 
   - Have proper authorship.
 
@@ -32,4 +32,4 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
   - Be as minimal and polished as possible.
 
-  - Be in accordance with the items, if applicable, stated at our [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+  - Be in accordance with the terms, if applicable, stated at our [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
