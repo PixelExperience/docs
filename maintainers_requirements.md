@@ -8,7 +8,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 2 - You must have a good knowledge of git.
 
-3 - You must create and maintain an unofficial build for some amount of time, (Don't instantly do a build and apply. That'll mean an instantly rejection), make sure that the build is stable for daily usage before applying. The context of stability may differ for different devices, so explain regarding any exceptions.
+3 - You must create and maintain an unofficial build for some amount of time, (Don't instantly create a build and apply; that'll entail an instant rejection), make sure that the build is stable for daily usage before applying. The context of stability may differ for different devices, so explain regarding any exceptions.
 
 4 - You must have your device sources available publicly with proper authorship for each commit.
 
@@ -16,4 +16,4 @@ Before you apply to add your device into our list of official devices, you shoul
 
 6 - Your device must be in accordance with the [Device Requirements](https://github.com/PixelExperience/docs/blob/master/device_requirements.md)
 
-After applying and once your application is acknowledged, you will receive an email from a member of the recruitment committee regarding the acceptance or rejection. 
+After applying and once your application is acknowledged, you will receive an email from a member of the recruitment committee regarding acceptance or rejection of the application. 
