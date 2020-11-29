@@ -8,7 +8,7 @@ The maintainers:
 
 - **MUST** upload:
 
-  - All theirs device sources on [PixelExperience-Devices](https://github.com/PixelExperience-Devices) organization. It goes without saying that these should be fully buildable. Using external repos for build releases aren't allowed, unless they're from LineageOS/TheMuppets organization(s). Exceptions may be open if only it's a really big need.
+  - All theirs device sources on [PixelExperience-Devices](https://github.com/PixelExperience-Devices) organization. It goes without saying that these should be fully buildable. Using external repos for build releases aren't allowed, unless they're from LineageOS/TheMuppets organization(s). Exceptions may be open if only it's absolutely necessary.
 
   - Changelogs for each build. These MUST be user-friendly, simplifying the changes for the average user who aren't aware of things like Safetynet or color calibration, but would like to know what has changed since the last update. 
 
@@ -32,9 +32,9 @@ The maintainers:
 
   - Any Google applications that aren't available from ROM sources - again, only GoogleCamera is acceptable, but please ensure that you use a reliable source and that the device has proper support for them.
 
-  - Any stock firmware app. Once again GoogleCamera still acceptable as per se, so does the camera app itself if fully functional.
+  - Any stock firmware app. Once again GoogleCamera is acceptable per se, so is the camera app from the stock firmware itself, only, if fully functional.
 
-- **MUST** use the same device common-tree is a device is already using the same repository. Different branches are not allowed. In case the maintainer doesn't want to use the same common-tree the only option remaining will be the fully decommonization. The same goes to the vendor repositories.
+- **MUST** use the same device common-tree if a device is already using the same repository. Different branches are not allowed. In case the maintainer doesn't want to use the same common-tree, the only option remaining will be to fully decommonize the device in question. The same goes for the vendor repositories.
 
 - **MUST NOT** enable the Always On Display in case the device has a LCD panel.
 
@@ -46,6 +46,6 @@ The maintainers:
 
   - Do any modifications that may lead to Magisk not work, as per the [Kernel Guidelines](https://github.com/PixelExperience/docs/blob/master/kernel_guidelines.md).
 
-- If maintainer of an A/B partition or a dynamic partition device, you **MUST NOT** ship TWRP prebuilt. Instead, the maintainer **MUST** ship the AOSP Recovery available by us.
+- If you're a maintainer of an A/B partition or a dynamic partition device, you **MUST NOT** ship TWRP prebuilt. Instead, the maintainer **MUST** ship the AOSP Recovery made available by us.
 
 If any of these rules are broken, the administration will take direct action against the maintainer without prior warning.

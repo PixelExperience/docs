@@ -12,7 +12,7 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - The device trees **MUST** have some required commits. You can check them at [this url](https://github.com/PixelExperience-Devices/required_commits).
 
-- The device **MUST** pass SafetyNet out of the box, without any 3rd part mods. If any device's stock build fingerprint works to bypass SafetyNet, those must take preference, even though that custom fingerprints (e.g. Pixels Build fingerprints) aren't restricted to be used.
+- The device **MUST NOT** use custom fingerprints (e.g. Pixels Build fingerprints). PixelExperience based on Android 11 is bypassing SafetyNet without any additional modifications on the device side.
 
 - The device **MUST NOT** include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated at the [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
 
@@ -24,7 +24,7 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - If there are commits that are needed in repos other than the device-specific ones, they **MUST**:
 
-  - Be necessary for the device to build, boot, or even to have a device function working properly (e.g. Fingerprint On Display).
+  - Be necessary for the device to build, boot, or even to have a/the device's function(s) working properly (e.g. Fingerprint On Display).
 
   - Have proper authorship.
 
