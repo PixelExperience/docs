@@ -1,4 +1,4 @@
-Thread title: [ROM][11.0][DEVICE] PixelExperience [AOSP][2020/12/15]
+Thread title: [ROM][11][DEVICE] PixelExperience [AOSP]
 
 [CENTER]
 [img]https://i.imgur.com/GtwTyCR.png[/img]
