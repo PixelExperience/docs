@@ -9,7 +9,7 @@ Thread title: [ROM][11.0][DEVICE] PixelExperience [AOSP][2020/12/15]
 
 Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device
 
-Based on Android 11.0
+Based on Android 11
 [/SIZE]
 
 [SIZE="4"][b][color=#1a73e8]Whats working?[/color][/b][/SIZE]
