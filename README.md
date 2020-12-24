@@ -1,4 +1,4 @@
-![PixelExperience](https://i.imgur.com/GtwTyCR.png[/img])
+![PixelExperience](https://i.imgur.com/NFjZzFl.png[/img])
 
 **Important Links:**
 

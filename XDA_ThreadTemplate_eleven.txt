@@ -1,7 +1,7 @@
-Thread title: [ROM][11.0][DEVICE] PixelExperience [AOSP][2020/12/15]
+Thread title: [ROM][11][DEVICE] PixelExperience [AOSP]
 
 [CENTER]
-[img]https://i.imgur.com/GtwTyCR.png[/img]
+[img]https://i.imgur.com/NFjZzFl.png[/img]
 [SIZE="5"][b][color=#1a73e8]PixelExperience for DeviceName [codename][/color][/b][/SIZE]
 
 [SIZE="4"][b][color=#1a73e8]What is this?[/color][/b][/SIZE]
