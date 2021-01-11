@@ -10,8 +10,6 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - The device **MUST** have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on PE. Only VoLTE is allowed to be ignored, so are NFC payment methods.
 
-- The device trees **MUST** have some required commits. You can check them at [this url](https://github.com/PixelExperience-Devices/required_commits).
-
 - The device **MUST NOT** use custom fingerprints (e.g. Pixels Build fingerprints). PixelExperience based on Android 11 is bypassing SafetyNet without any additional modifications on the device side.
 
 - The device **MUST NOT** include any unused overlays and packages. This includes, but is not limited to, packages not being built, packages that don't work, obsolete packages, placebo 'tweaks' or any packages that will include unnecessary and/or unwanted features, as stated at the [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
