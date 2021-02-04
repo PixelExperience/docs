@@ -47,8 +47,8 @@ Sound/vibration[/SIZE]
 [/CENTER]
 
 [LEFT][SIZE="3"][list]
-[*][b]Android OS version:[/b] 11.0.0_r20
-[*][b]Security patch level:[/b] December 2020
+[*][b]Android OS version:[/b] 11.0.0_r29
+[*][b]Security patch level:[/b] February 2021
 [*][b]Build author/Device Maintainer:[/b] [url=XDA_PROFILE_URL]XDA_USERNAME[/url]
 [*][b]Device Source code:[/b] [url=https://github.com/PixelExperience-Devices]https://github.com/PixelExperience-Devices[/url]
 [*][b]Source code:[/b] [url=https://github.com/PixelExperience]https://github.com/PixelExperience[/url]
