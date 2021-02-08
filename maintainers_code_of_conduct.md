@@ -48,4 +48,14 @@ The maintainers:
 
 - If you're a maintainer of an A/B partition or a dynamic partition device, you **MUST NOT** ship TWRP prebuilt. Instead, the maintainer **MUST** ship the AOSP Recovery made available by us.
 
+- About proprietary files, the maintainers **MUST**:
+
+  - Have a working proprietary files list and extraction script that inherits the global extraction script (located in tools/extract-utils) in their device tree (or device tree dependencies).
+
+  - Use only the script generated vendor repositories for build.
+
+  - Specify the source of any un-pinned (default) proprietary files.
+
+  - Pin any proprietary files not sourced from the default specified source and have a short comment specifying their source. 
+
 If any of these rules are broken, the administration will take direct action against the maintainer without prior warning.
