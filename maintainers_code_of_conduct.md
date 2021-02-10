@@ -58,4 +58,8 @@ The maintainers:
 
   - Pin any proprietary files not sourced from the default specified source and have a short comment specifying their source. 
 
+- About Translations, the maintainers **MUST**:
+
+ - Move all required strings for any custom packages for device (XiaomiParts, OnePlus Settings, Doze) in [devicesettings-custom](https://github.com/PixelExperience/packages_resources_devicesettings-custom) repository.
+
 If any of these rules are broken, the administration will take direct action against the maintainer without prior warning.
