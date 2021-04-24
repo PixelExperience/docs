@@ -62,4 +62,10 @@ The maintainers:
 
   - Move all required strings for any custom packages for device (XiaomiParts, OnePlus Settings, Doze) in [devicesettings-custom](https://github.com/PixelExperience/packages_resources_devicesettings-custom) repository.
 
+- About Sepolicy Rules, the maintainers **MUST NOT**:
+
+  - Ignore Sepolicy Neverallows.
+
+  - Allow access to generic file/directory/prop labels.
+
 If any of these rules are broken, the administration will take direct action against the maintainer without prior warning.
