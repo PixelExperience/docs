@@ -66,6 +66,6 @@ The maintainers:
 
   - Ignore Sepolicy Neverallows.
 
-  - Allow access to generic file/directory/prop labels.
+  - Allow write access to generic directory/file/prop labels (With some exceptions).
 
 If any of these rules are broken, the administration will take direct action against the maintainer without prior warning.
