@@ -22,14 +22,6 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - The device **MUST NOT** have the need for a lot of patches, and if so, it must be in accordance with the following listing below.
 
-- If there are commits that are needed in repos other than the device-specific ones, they **MUST**:
+- If there are commits that are needed in repos other than the device-specific ones, they **MUST** be in accordance with our [Commit's Guidelines](https://github.com/PixelExperience/docs/blob/master/commits_guidelines.md).
 
-  - Be necessary for the device to build, boot, or even to have a/the device's function(s) working properly (e.g. Fingerprint On Display).
-
-  - Have proper authorship.
-
-  - Be pushed to [Gerrit](https://gerrit.pixelexperience.org).
-
-  - Be as minimal and polished as possible.
-
-  - Be in accordance with the items, if applicable, stated at our [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md).
+- The device **MUST** have on it's sources commit complying with our [Commit's Guidelines](https://github.com/PixelExperience/docs/blob/master/commits_guidelines.md).
