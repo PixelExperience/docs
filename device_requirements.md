@@ -6,6 +6,14 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - The device **MUST** be using an ARM 64-bit software base. ARM 32-bit devices are no longer supported from our side.
 
+- The device **MUST** have 3 GB of RAM or more.
+
+- The device **MUST** be using a kernel 4.4 base with eBPF and binder backports, or newer versions of the Linux kernel.
+
+- The device **MUST** have a minimum of 32 GB of internal storage. SD Card expansions **SHALL NOT** be counted as part of it.
+
+- The device **MUST** have a minimum of about 3 GB of dedicated memory for the system partition, already counting proper storage optimizations being taken place. RemovePackages **SHALL NOT** be considered as such.
+
 - The device **MUST** have SELinux Enforcing to release builds. During Beta Stage builds it's allowed to have SELinux Permissive.
 
 - The device **MUST** have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on PE. Only VoLTE is allowed to be ignored, so are NFC payment methods.
