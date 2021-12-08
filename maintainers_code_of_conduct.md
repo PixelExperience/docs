@@ -18,9 +18,15 @@ The maintainers:
 
 - **MUST** maintain authorship of git commits that are pushed, this is a mandatory requirement for ALL repositories. Force-pushes are acceptable, but try to keep them to a minimum.
 
+- **MUST** be active in the development during the maintainship of the device they are responsible for, whether this being a main maintainer or a co-maintainer. If this is not possible, the reason(s) must be sent to the PE Administration. In the absence of any explanation, the member, whether a maintainer or a co-maintainer, will be kicked without any prior warning. Contributions on the ROM side will be taken in consideration in case they are needed.
+
 - In the event of any disagreements between maintainers, sort them out via direct messages on Telegram or XDA. Do not take your fights to our chats, approach the administration if you want something sorted out quickly. The same is valid for our public chat. "We don't do this here".
 
 - **MUST NOT** add:
+
+  - Exclude packages (A.K.A RemovePackages) that includes any package provided by the ROM side without any prior approval from the administration.
+
+  - Any sort of script that will remove any package provided by the ROM side without any prior approval from the administration.
 
   - Any features in their device specific packages, eg. configpanel, XiaomiParts, etc., like KCAL, force Camera API2, etc.
 
