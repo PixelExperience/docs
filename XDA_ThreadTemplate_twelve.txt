@@ -36,7 +36,7 @@ Sound/vibration[/SIZE]
 [SIZE="3"][url="https://download.pixelexperience.org/DEVICE_CODENAME/"][b][color=#1a73e8][u]Download from PixelExperience website[/u][/color][/b][/url][/SIZE]
 
 [SIZE="4"][b][color=#1a73e8]Donate[/color][/b][/SIZE]
-[SIZE="3"][url="https://bit.ly/pixelexperiencedonate"][b][color=#1a73e8][u]Liked my work? Give me a beer[/u][/color][/b][/url][/SIZE]
+[SIZE="3"][url="https://donate.pixelexperience.org"][b][color=#1a73e8][u]Liked my work? Give me a beer[/u][/color][/b][/url][/SIZE]
 
 [SIZE="4"][b][color=#1a73e8]Translation[/color][/b][/SIZE]
 [SIZE="3"][url="https://translate.pixelexperience.org/"][b][color=#1a73e8][u]Help with project translation[/u][/color][/b][/url][/SIZE]
