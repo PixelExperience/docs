@@ -66,7 +66,7 @@ The maintainers:
 
 - About Translations, the maintainers **MUST**:
 
-  - Move all required strings for any custom packages for device (XiaomiParts, OnePlus Settings, Doze) in [devicesettings-custom](https://github.com/PixelExperience/packages_resources_devicesettings-custom) repository.
+  - Move all required strings for any custom packages for device (XiaomiParts, OnePlus Settings, Doze) in [devicesettings](https://github.com/PixelExperience/packages_resources_devicesettings) repository.
 
 - About Sepolicy Rules, the maintainers **MUST NOT**:
 
