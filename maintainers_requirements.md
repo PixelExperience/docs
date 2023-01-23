@@ -16,4 +16,4 @@ Before you apply to add your device into our list of official devices, you shoul
 
 6 - Your device must be in accordance with the [Device Requirements](https://github.com/PixelExperience/docs/blob/master/device_requirements.md)
 
-After applying and once your application is acknowledged, you will receive an email from a member of the recruitment committee regarding the acceptance or rejection of the application. 
+After applying and once your application is acknowledged, you will receive a message from a member of the administration regarding the acceptance or rejection of the application. 

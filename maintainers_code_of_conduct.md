@@ -52,7 +52,9 @@ The maintainers:
 
   - Do any modifications that may lead to Magisk not work, as per the [Kernel Guidelines](https://github.com/PixelExperience/docs/blob/master/kernel_guidelines.md).
 
-- If you're a maintainer of an A/B partition or a dynamic partition device, you **MUST NOT** ship TWRP prebuilt. Instead, the maintainer **MUST** ship the AOSP Recovery made available by us.
+- **MUST NOT** ship any other recovery prebuilt but the AOSP Recovery made available by us.
+
+- **MUST NOT**, at our wiki, stated that the prefered custom recovery is TWRP or OrangeFox. Exceptions can be open upon negotiation with the administration
 
 - About proprietary files, the maintainers **MUST**:
 
