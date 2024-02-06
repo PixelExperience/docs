@@ -4,17 +4,17 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Exceptions **SHOULD** be made by contacting the administration team.
 
-- The device **MUST** be using an ARM 64-bit software base. ARM 32-bit devices are no longer supported from our side.
+- The device **MUST** be using an ARM 64-bit software base.
 
 - The device **MUST** have 3 GB of RAM or more.
 
 - The device **MUST** be using a kernel 4.4 base with eBPF and binder backports, or newer versions of the Linux kernel.
 
-- The device **MUST** have a minimum of 32 GB of internal storage. SD Card expansions **SHALL NOT** be counted as part of it.
+- The device **MUST** have a minimum of 64 GB of internal storage. SD Card expansions **SHALL NOT** be counted as part of it.
 
-- The device **MUST** have a minimum of about 3 GB of dedicated memory for the system partition, already counting proper storage optimizations being taken place. RemovePackages **SHALL NOT** be considered as such.
+- The device **MUST** have a minimum of about 9 GB of dedicated storage for the system partition, already counting proper storage optimizations being taken place. RemovePackages **SHALL NOT** be considered as such.
 
-- The device **MUST** have SELinux Enforcing to release builds. During Beta Stage builds it's allowed to have SELinux Permissive.
+- The device **MUST** have SELinux Enforcing to release builds. However, during the alpha or beta stage, having SELinux Permissive is allowed.
 
 - The device **MUST** have complete hardware compatibility corresponding to the stock ROM, i.e. if IR blaster works on the stock ROM, it must work on PE. Only VoLTE is allowed to be ignored, so are NFC payment methods.
 
@@ -24,12 +24,10 @@ Exceptions **SHOULD** be made by contacting the administration team.
 
 - The device sources **MUST** be in accordance with, if applicable, all the items stated at our [Maintainers Code of Conduct](https://github.com/PixelExperience/docs/blob/master/maintainers_code_of_conduct.md) related to the device source code.
 
-- If the device has Full Disk Encryption (a.k.a FDE), it **MUST NOT** ship/build the Google Play System Updates/Updatable APEX, as the same only works on devices that have File-Base Encryption (FBE) with the device encrypted. 
+- The device must be compatible with File Based Encryption (FBE). The exception to this rule is if the device shipped with Full Disk Encryption (FDE) but a proper, working bringup for FBE is in place. Encryption must be enabled by default for all Official builds. 
 
-- Yet on the encryption, the device **MUST** always have the encryption enabled and enforced as per stock, not mattering if it's a FDE or FBE device. Converting the device from FDE to FBE is fine, however converting a device from FBE to FDE is strictly prohibited.
 
-- The device **MUST NOT** have the need for a lot of patches, and if so, it must be in accordance with the following listing below.
-
-- If there are commits that are needed in repos other than the device-specific ones, they **MUST** be in accordance with our [Commit's Guidelines](https://github.com/PixelExperience/docs/blob/master/commits_guidelines.md).
-
-- The device **MUST** have on it's sources commit complying with our [Commit's Guidelines](https://github.com/PixelExperience/docs/blob/master/commits_guidelines.md).
+- The device **SHOULD NOT** have the need for a whole lot of patches, but if so is **REQUIRED**, it **MUST** be in accordance with the following listing below.
+- If there are commits that are needed in repos other than the device-specific ones, they **MUST** be in accordance with our [Commit Guidelines](https://github.com/PixelExperience/docs/blob/master/commits_guidelines.md).
+ - It **MUST** be necessary for the device to properly function, otherwise such changes will not be accepted. For example: Major changes towards CLO/CAF just for the sake of getting closer to CLO/CAF on the device source.
+- All commits on the device side **MUST** be complying with our [Commit Guidelines](https://github.com/PixelExperience/docs/blob/master/commits_guidelines.md).
